@@ -13,7 +13,7 @@
 			<transactionManager type="JDBC"/>
 			<dataSource type="POOLED">
 				<property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
-				<property name="url" value="jdbc:oracle:thin:@192.168.0.26:1521:XE"/>
+				<property name="url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
 				<property name="username" value="hr"/>
 				<property name="password" value="happy"/>
 				<!-- maxActive:8 , maxIdle:8 , maxWait:10000 -->
